@@ -21,7 +21,7 @@ import {
 
 const Header = ({ currentUser, hidden }) => {
   return (
-    <>
+    <div>
       {/* Before Applying Styled-components 
         <div className="header">
       <Link className="logo-container" to="/">
@@ -66,7 +66,7 @@ const Header = ({ currentUser, hidden }) => {
         </OptionsContainer>
         {hidden ? null : <CartDropdown />}
       </HeaderContainer>
-    </>
+    </div>
   );
 };
 
